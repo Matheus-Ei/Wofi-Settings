@@ -1,0 +1,61 @@
+window {
+    margin: 5px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    font-family: SF Pro Text Regular;
+}
+
+@keyframes erscheinen {
+    from {opacity: 0;}
+      to {opacity: 1;}
+}
+
+#input {
+    margin: 0px 0px 5px;
+    border: 1px solid rgba(107, 0, 177, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    color : #fdf6e3;
+    animation: erscheinen 0.3s linear;
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* #inner-box flowboxchild:nth-child(even) { */
+/*     background-color: #555555; */
+/* } */
+
+#outer-box {
+    margin: 0px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#scroll {
+    margin: 0px;
+    border: 1px solid rgba(107, 0, 177, 0.6);
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    animation: erscheinen 0.3s linear;
+}
+
+#text {
+    margin: 1px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    color: #FFFFFFl
+}
+
+#selected {
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-color: rgb(0, 0, 0, 0);
+}
+
+#entry:selected {
+    margin: 1px;
+    background-color: #480078;
+    border-radius: 5px; 
+}
