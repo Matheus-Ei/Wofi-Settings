@@ -1,4 +1,4 @@
-width=400
+width=300
 height=600
 
 show=drun
@@ -11,4 +11,4 @@ orientation=vertical
 content_halign=fill
 insensitive=true
 allow_images=true
-image_size=20
+image_size=30
